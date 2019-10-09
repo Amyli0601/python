@@ -1,0 +1,1 @@
+[{'id': 1, 'name': 'java', 'location': 'A区19号'}, {'id': 2, 'name': 'python', 'location': 'A区8号'}, {'id': 1, 'name': '1', 'location': '1'}]

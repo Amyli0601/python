@@ -1,0 +1,57 @@
+<!--
+写一个用户注册的页面，包含：
+1、用户名
+2、密码
+3、最喜欢的电影选择
+4、上传个人资料文件
+5、通过 嵌入 script 标签 在终端中打印用户名和选择的电影（下节课上完之后，再做）
+6、点击重置按钮，可以清空所有输入（扩展，选做，不要求提交）
+
+ps: 当然，你还可以各种自由发挥
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body background="http://dist.junbaob2b.com/dist/assets/img/login.22e9c9ca.png"
+ marginwidth="700px" marginheight="300px">
+    <!--
+    <div id="Layer1" style="position:absolute; width:100%; height:100%; z-index:-1">
+    <img src="http://dist.junbaob2b.com/dist/assets/img/login.22e9c9ca.png" height="100%" width="100%"/>
+    -->
+     <div>
+        <label>请输入用户名:</label>
+        <input id="name" type="text" placeholder="请输入用户名" >
+    </div>
+    <div>
+        <label>请输入密码:</label>
+        <input id="password" type="password" placeholder="请输入密码">
+    </div>
+    <div>
+        <label>最喜欢的电影:</label>
+        <select id="movie">
+            <option value="怦然心动">怦然心动</option>
+            <option value="恋恋笔记本">恋恋笔记本</option>
+            <option value="诛仙">诛仙</option>
+        </select>
+    </div>
+    <div id="file">
+        请上传个人资料:
+        <input type="file">
+    </div>
+    <div>
+        <input type="submit" value="登录">
+        <button onclick="show_info()">注册</button>
+    </div>
+    <script>
+        function show_info(){
+            var name = document.getElementById('name');
+            var movie = document.getElementById('movie');
+            console.log(name.value);
+            console.log(movie.value);
+        }
+    </script>
+</body>
+</html>

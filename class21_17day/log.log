@@ -1,0 +1,20 @@
+9999999
+---这个是debug等级的日志,一般用于调试
+---这个是info等级的日志，常规信息的输出
+---这个是warning等级的日志，警告信息
+---这个是error等级的日志，错误信息
+---这个是critical等级的日志，严重的错误，程序要崩溃
+2019-08-27 20:15:13,040 - [logging_test.py-->line:40] - DEBUG: ---这个是debug等级的日志,一般用于调试
+2019-08-27 20:15:13,041 - [logging_test.py-->line:41] - INFO: ---这个是info等级的日志，常规信息的输出
+2019-08-27 20:15:13,041 - [logging_test.py-->line:42] - WARNING: ---这个是warning等级的日志，警告信息
+2019-08-27 20:15:13,041 - [logging_test.py-->line:43] - ERROR: ---这个是error等级的日志，错误信息
+2019-08-27 20:15:13,090 - [logging_test.py-->line:44] - CRITICAL: ---这个是critical等级的日志，严重的错误，程序要崩溃
+2019-08-27 20:27:33,616 - [mylogger.py-->line:69] - DEBUG: python
+2019-08-27 20:27:33,619 - [mylogger.py-->line:70] - DEBUG: ---这个是debug等级的日志,一般用于调试
+2019-08-27 20:27:33,619 - [mylogger.py-->line:71] - INFO: ---这个是info等级的日志，常规信息的输出
+2019-08-27 20:27:33,619 - [mylogger.py-->line:72] - WARNING: ---这个是warning等级的日志，警告信息
+2019-08-27 20:27:33,620 - [mylogger.py-->line:73] - ERROR: ---这个是error等级的日志，错误信息
+2019-08-27 20:27:33,620 - [mylogger.py-->line:74] - CRITICAL: ---这个是critical等级的日志，严重的错误，程序要崩溃
+2019-08-27 20:31:59,335 - [testcase.py-->line:18] - DEBUG: python
+2019-08-27 20:32:32,870 - [testcase.py-->line:18] - DEBUG: python
+2019-08-27 20:32:32,870 - [testcase.py-->line:19] - INFO: 这个时info

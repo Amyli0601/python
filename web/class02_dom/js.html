@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>可乐要加冰</title>
+</head>
+<body>
+    <h1 class="name" id='coco' onclick="red(this)" onmouseout="green(this)">可乐</h1>
+    <h2>雪碧</h2>
+    <h3>lemon</h3>
+    <h4>tree</h4>
+    <h5>nice</h5>
+    <h6>雪碧</h6>
+    <script>
+        //定义一个变量
+        var name = '可乐';
+        console.log(name)
+        //定义一个函数
+        function game(a){
+            if (a > 5){
+                console.log('想喝可乐');
+            }
+            else if (a < 3){
+                console.log('想喝雪碧');
+            }
+            else{
+            console.log('想喝美年达')
+            }
+        }
+        game(4)
+    </script>
+    <script>
+        function red(elem){
+            elem.style.color = 'red';
+        }
+        function green(elem){
+            elem.style.color = 'green';
+        }
+        window.onload=function(){
+            alert('加载完毕')
+        }
+    </script>
+</body>
+
+</html>
